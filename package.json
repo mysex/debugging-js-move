@@ -1,0 +1,16 @@
+{
+    "name": "test-ex-ws",
+    "version": "1.0.0",
+    "description": "测试ws与express结合",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "express-ws": "^4.0.0"
+    }
+}
