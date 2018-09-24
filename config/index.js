@@ -1,8 +1,4 @@
-// host 与 prot 需要在 public/ws.js 中修改 WebSocket 的链接地址
-
-
-
 module.exports = {
-    host: "10.1.0.218",
-    prot: "3000"
+    host: "192.168.1.13", // 本地的IP地址
+    prot: "3000" // 服务的端口号
 }

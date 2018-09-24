@@ -14,7 +14,7 @@
     if (system.win || system.mac || system.xll) {
         return false;
     } else {
-        let ws = new WebSocket("ws://192.168.1.13:3000/ws");
+        let ws = new WebSocket("$SERVEPATH$");
         ws.onerror = function (err) {
             console.log("链接ws服务失败")
         }
